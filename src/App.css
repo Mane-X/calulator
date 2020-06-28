@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+td input{
+	width: 150px;
+	height: 50px;
+	background-color: rgb(70, 70, 70);
+	color: white;
+	border: none;
+    border-radius: 100px;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.text{
+	margin-left: 4px;
+	width: 610px;
+	height: 70px;	
+	background-color: rgb(4, 130, 168);
+	border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.text:focus{
+    outline: none;
+
+}
+td input:hover{
+	background-color: #5C5C5C;
+	color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.form{
+    margin: auto;
+    width: 50%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td input:focus{
+    border: none;
+    outline: none;
+    outline-style: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html{
+    background-image: url('https://hdwallsource.com/img/2014/9/earth-and-moon-wallpaper-hd-33271-34028-hd-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
 }
